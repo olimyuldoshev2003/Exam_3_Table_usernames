@@ -1,0 +1,559 @@
+.header {
+  padding: {
+    left: 50px;
+    right: 50px;
+  }
+  .block_1_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .block_1_a_header {
+      h1 {
+        font-size: 25px;
+      }
+    }
+
+    .block_1_b_header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 15rem;
+      .btn_1_block_1_b_header {
+        button {
+          width: 74px;
+          height: 32px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          background-color: #2196f3;
+          border: none;
+          outline: none;
+          border-radius: 4px;
+          color: #fff;
+        }
+      }
+
+      .btn_2_and_3_header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 9.2rem;
+        button {
+          width: 74px;
+          height: 32px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          border: 1px solid rgb(199, 199, 199);
+          outline: none;
+          border-radius: 4px;
+        }
+
+        button:nth-child(2) {
+          background-color: #fff;
+        }
+      }
+    }
+  }
+  .block_2_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .block_2_a_header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      fieldset {
+        border: 1px solid rgb(199, 199, 199);
+        border-radius: 4px;
+        width: 10rem;
+        height: 34px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        legend {
+          font-size: 0.75em;
+          color: rgba(0, 0, 0, 0.38);
+        }
+
+        select {
+          width: 10rem;
+          height: 33px;
+          outline: none;
+          border: none;
+        }
+      }
+    }
+
+    .block_2_b_header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      fieldset {
+        border: 1px solid rgb(199, 199, 199);
+        border-radius: 4px;
+        width: 10rem;
+        height: 34px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        legend {
+          font-size: 0.75em;
+          color: rgba(0, 0, 0, 0.38);
+        }
+
+        input {
+          width: 10rem;
+          height: 31px;
+          outline: none;
+          border: none;
+        }
+
+        input::placeholder {
+          color: rgba(0, 0, 0, 0.38);
+        }
+      }
+    }
+  }
+}
+
+.section_1 {
+  margin-top: 30px;
+  padding: {
+    left: 50px;
+    right: 50px;
+  }
+
+  .div_for_header {
+    padding: {
+      left: 50px;
+      right: 50px;
+    }
+    background-color: rgb(237, 249, 252);
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .name,
+    .city,
+    .status,
+    .phone {
+      // border: 1px solid red;
+      width: 215px;
+      height: 48px;
+      font-size: 20px;
+      display: flex;
+      justify-content: start;
+      align-items: center;
+    }
+  }
+
+  .div_for_info {
+    padding: {
+      left: 30px;
+    }
+    background-color: rgb(158, 155, 155);
+    border-top: 1px solid rgb(212, 212, 212);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .div_for_name,
+    .div_for_city,
+    .div_for_status,
+    .div_for_phone {
+      // border: 1px solid red;
+      width: 196px;
+      height: 68px;
+      display: flex;
+      justify-content: start;
+      align-items: center;
+    }
+
+    .div_for_name {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .div_for_image {
+        img {
+          border-radius: 50%;
+          width: 36px;
+          height: 36px;
+        }
+      }
+      .email_text {
+        margin-left: 10px;
+        .div_for_name_surname {
+          display: flex;
+          h5 {
+            font-weight: 600;
+            color: rgba(64, 70, 76, 1);
+            margin: 0;
+            padding: 0;
+            font-size: 14px;
+          }
+        }
+
+        a {
+          text-decoration: none;
+          font-size: 14px;
+          font-weight: 500;
+          color: rgba(64, 70, 76, 1);
+        }
+      }
+    }
+
+    .div_for_status {
+      .inactive {
+        width: 66px;
+        height: 19px;
+        font-weight: 600;
+        font-size: 12px;
+        background-color: rgba(116, 137, 152, 1);
+        color: rgba(251, 251, 251, 1);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .active {
+        width: 54px;
+        height: 19px;
+        font-weight: 600;
+        font-size: 12px;
+        background-color: rgba(37, 147, 35, 1);
+        color: rgba(251, 251, 251, 1);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+
+    .div_for_city {
+      margin-left: 25px;
+      h5 {
+        font-size: 14px;
+        font-weight: 500;
+        color: rgba(64, 70, 76, 1);
+      }
+    }
+
+    .div_for_phone {
+      h5 {
+        font-size: 16px;
+        font-weight: 600;
+        color: rgba(64, 70, 76, 1);
+      }
+    }
+
+    .div_icon_for_click {
+      button {
+        border: none;
+        background-color: transparent;
+      }
+    }
+  }
+}
+
+.modal {
+  width: 300px;
+  border: none;
+  .header {
+    margin-left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h1 {
+      color: rgba(38, 38, 38, 1);
+      font-size: 20px;
+      font-weight: 600;
+    }
+
+    button {
+      border: none;
+      background-color: transparent;
+      cursor: pointer;
+    }
+  }
+
+  .section {
+    .section_block_1 {
+      fieldset {
+        border: 1px solid rgb(199, 199, 199);
+        border-radius: 4px;
+        width: 92%;
+        height: 25px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        legend {
+          font-size: 0.75em;
+          color: rgba(0, 0, 0, 0.38);
+        }
+
+        input {
+          margin-bottom: 10px;
+          width: 100%;
+          height: 23px;
+          outline: none;
+          border: none;
+        }
+
+        input::placeholder {
+          color: rgba(0, 0, 0, 0.87);
+        }
+      }
+      input {
+        border: 1px solid rgb(199, 199, 199);
+        width: 98.2%;
+        height: 30px;
+        margin-left: 3px;
+        outline: none;
+        margin-top: 10px;
+      }
+
+      #input_for_email {
+        margin-bottom: 20px;
+      }
+
+      #input_for_name::placeholder,
+      #input_for_surname::placeholder,
+      #input_for_email::placeholder {
+        padding-left: 18px;
+      }
+    }
+
+    .section_block_2 {
+      span {
+        font-size: 16px;
+      }
+      fieldset {
+        margin-top: 20px;
+        border: 1px solid rgb(199, 199, 199);
+        border-radius: 4px;
+        width: 92%;
+        height: 24px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        legend {
+          font-size: 0.75em;
+          color: rgba(0, 0, 0, 0.38);
+        }
+
+        select {
+          margin-bottom: 4px;
+          width: 100%;
+          height: 18px;
+          outline: none;
+          border: none;
+        }
+      }
+      input[type="number"] {
+        border: 1px solid rgb(199, 199, 199);
+        width: 98.2%;
+        height: 30px;
+        margin-left: 3px;
+        outline: none;
+        margin-top: 10px;
+      }
+    }
+  }
+
+  .footer {
+    margin-top: 10px;
+    button:first-child {
+      width: 72px;
+      height: 32px;
+      background-color: rgba(33, 150, 243, 1);
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      outline: none;
+      cursor: pointer;
+    }
+
+    button:nth-child(2) {
+      width: 72px;
+      height: 32px;
+      background-color: transparent;
+      color: rgba(33, 150, 243, 1);
+      border: 1px solid rgba(33, 150, 243, 1);
+      border-radius: 4px;
+      outline: none;
+      cursor: pointer;
+    }
+  }
+}
+
+#view_modal {
+  width: 300px;
+  .header_view_modal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+
+  .section_2_view_modal {
+    display: flex;
+
+  }
+}
+
+#modal_for_control_the_users {
+    width: 10rem;
+    border: none;
+  span {
+    width: 8px;
+    height:8px;;
+    cursor: pointer;
+    margin-left: 9.6rem;
+    font-size: 17px;
+  }
+  h4 {
+    width: 8rem;
+    font-size: 16px;
+    font-weight: 100;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  h4:nth-child(4) {
+    color: rgba(239, 68, 68, 1);
+  }
+}
+
+
+.edit_modal {
+  width: 300px;
+  border: none;
+  .header {
+    margin-left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h1 {
+      color: rgba(38, 38, 38, 1);
+      font-size: 20px;
+      font-weight: 600;
+    }
+
+    button {
+      border: none;
+      background-color: transparent;
+      cursor: pointer;
+    }
+  }
+
+  .section {
+    .section_block_1 {
+      fieldset {
+        border: 1px solid rgb(199, 199, 199);
+        border-radius: 4px;
+        width: 92%;
+        height: 25px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        legend {
+          font-size: 0.75em;
+          color: rgba(0, 0, 0, 0.38);
+        }
+
+        input {
+          margin-bottom: 10px;
+          width: 100%;
+          height: 23px;
+          outline: none;
+          border: none;
+        }
+
+        input::placeholder {
+          color: rgba(0, 0, 0, 0.87);
+        }
+      }
+      input {
+        border: 1px solid rgb(199, 199, 199);
+        width: 98.2%;
+        height: 30px;
+        margin-left: 3px;
+        outline: none;
+        margin-top: 10px;
+      }
+
+      #input_for_email_edit {
+        margin-bottom: 20px;
+      }
+
+      #input_for_name_edit::placeholder,
+      #input_for_surname_edit::placeholder,
+      #input_for_email_edit::placeholder {
+        padding-left: 18px;
+      }
+    }
+
+    .section_block_2 {
+      span {
+        font-size: 16px;
+      }
+      fieldset {
+        margin-top: 20px;
+        border: 1px solid rgb(199, 199, 199);
+        border-radius: 4px;
+        width: 92%;
+        height: 24px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        legend {
+          font-size: 0.75em;
+          color: rgba(0, 0, 0, 0.38);
+        }
+
+        select {
+          margin-bottom: 4px;
+          width: 100%;
+          height: 18px;
+          outline: none;
+          border: none;
+        }
+      }
+      input[type="number"] {
+        border: 1px solid rgb(199, 199, 199);
+        width: 98.2%;
+        height: 30px;
+        margin-left: 3px;
+        outline: none;
+        margin-top: 10px;
+      }
+    }
+  }
+
+  .footer {
+    margin-top: 10px;
+    button:first-child {
+      width: 72px;
+      height: 32px;
+      background-color: rgba(33, 150, 243, 1);
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      outline: none;
+      cursor: pointer;
+    }
+
+    button:nth-child(2) {
+      width: 72px;
+      height: 32px;
+      background-color: transparent;
+      color: rgba(33, 150, 243, 1);
+      border: 1px solid rgba(33, 150, 243, 1);
+      border-radius: 4px;
+      outline: none;
+      cursor: pointer;
+    }
+  }
+}
